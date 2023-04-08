@@ -46,6 +46,13 @@ public class teacher{
     public void setSalary(int Salary){
         this.Salary=Salary;
     }
-    //create get function for id
+/**
+ * Get paied from School
+ * @param sal
+ */
+    public void receiveSlary(int sal){
+        Salary=sal;
+
+    }
     
 }

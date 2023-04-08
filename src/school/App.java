@@ -18,11 +18,13 @@ public class App {
         studentList.add(s1);
         studentList.add(s2);
         school school1=new school(teacherList, studentList);
+        school school2=new school(teacherList, studentList);
+
         System.out.println("TotalMoneyEarned"+school1.getTotalMoneyEarned());
         school1.UpdateTotalMoneyEarned(25);
         System.out.println("TotalMoneyEarned"+school1.getTotalMoneyEarned());
         s1.payFees(5000);
-        
-        System.out.println(s1.remainingFees());
+        s2.payFees(7000);
+        System.out.println(school1.getTotalMoneyEarned());
     }
 }

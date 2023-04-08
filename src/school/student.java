@@ -84,6 +84,7 @@ public class student {
     }
     public void payFees(int fees){
 this.feespaid+=fees;
+school.UpdateTotalMoneyEarned(fees);
 
     }
      /**

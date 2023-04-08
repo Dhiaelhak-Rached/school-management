@@ -14,7 +14,7 @@ public class school {
     //create an Array List to Store Students
     List <student> Students;
  
-    private int totalMoneyEarned;
+    private static int totalMoneyEarned;
     private int totalMoneySpent;
 
 /**
@@ -84,7 +84,7 @@ public class school {
     public void setTotalMoneyEarned(int totalMoneyEarned) {
         this.totalMoneyEarned = totalMoneyEarned;
     }
-    public void UpdateTotalMoneyEarned(int mount){
+    public static void UpdateTotalMoneyEarned(int mount){
         totalMoneyEarned+=mount;
     }
 
