@@ -1,13 +1,8 @@
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# School Management
 
 # Main Idea
 The main Idea of this Project is to create a full School Management System with  **Java**
-![alt text for screen readers](adventure-time-finn-and-jake-s-treehouse-9vl8l9a058e110hu.jpg)
+![modules-of-the-school-management-system](V7a7320ij-modules-of-the-school-management-system)
 So what this system will do :<br>
 * Keep tracking of Students fees
 * Teachers Salary 
